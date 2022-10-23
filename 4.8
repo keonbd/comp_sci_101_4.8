@@ -1,0 +1,16 @@
+def is_prime(value):
+    for count in range(2, value-1):
+        if value % count == 0:
+            return False
+        
+    return True
+
+## Create is_prime function
+
+
+if __name__ == "__main__":
+    # Anything code that is not the funciton should be indented under this if.  DO NOT REMOVE
+    print(is_prime(7))
+    print(is_prime(3))
+    print(is_prime(4))
+    print(is_prime(8))
